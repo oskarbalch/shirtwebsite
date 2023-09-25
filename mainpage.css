@@ -1,0 +1,66 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the body element */
+body {
+    font-family: andale mono, monospace;
+    background-color: #f2f2f2;
+	border-top: solid 10px;
+    border-image: repeating-linear-gradient( -75deg, yellow, yellow 10px, black 10px, black 20px) 20;
+}
+
+/* Style the header section */
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 2px;
+	border-top: solid 10px;
+    border-image: repeating-linear-gradient( -75deg, yellow, yellow 10px, black 10px, black 20px) 20;
+}
+
+/* Style headings (h1 and h2) */
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Style paragraphs */
+p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Style product containers */
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the "Add to Cart" button */
+.buy-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.buy-button:hover {
+    background-color: #555;
+}
